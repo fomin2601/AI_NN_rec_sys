@@ -1,0 +1,17 @@
+.Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3 ease;
+  background-color: var(--green-color);
+  font: inherit;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

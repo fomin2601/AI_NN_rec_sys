@@ -1,0 +1,51 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btns {
+  display: flex;
+  column-gap: 64px;
+}
+
+.link {
+  color: inherit;
+}
+
+.checks {
+  background-color: var(--light-black-color);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin-top: 24px;
+  padding: 8px;
+}
+
+.check {
+  display: grid;
+  grid-template: auto / 1fr 1fr;
+  justify-items: center;
+  padding: 8px 0;
+  column-gap: 8px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--text-color);
+  }
+}
+
+.checkList {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.title {}
+
+.receipt {}

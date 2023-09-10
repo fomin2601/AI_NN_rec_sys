@@ -1,0 +1,42 @@
+.wrapper {
+  margin-top: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: var(--light-black-color);
+  height: 600px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.item {
+  display: grid;
+  grid-template: auto / 100px 1fr 150px 150px;
+  column-gap: 16px;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.header {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 8px;
+}
+
+.columnQuantity {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.btn {
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+}
